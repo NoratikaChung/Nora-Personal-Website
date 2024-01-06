@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      to top,
+      rgb(237, 237, 237) 0%,
+      rgb(237, 237, 237) 50%,
+      rgb(177, 194, 215) 50%,
+      rgb(177, 194, 215) 100%
+    );
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*This is the div where everything in the homapage is inside*/
+.box {
+    background-color: wheat;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+/*This part is for navigation bar*/
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6%;
+    background-color: rgb(177, 194, 215);
+    padding: 0 16%;
+}
+
+.logo {
+    
+    height: 1.8rem;
+}
+
+.nav a {
+    font-family: 'Katibeh', serif;
+    font-size: 1.5rem;
+}
+
+.nav a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.nav a:active {
+    color: black;
+}
+
+/*This part is for homepage backdrop image*/
+
+.home-backdrop {
+    background-color: blue;
+    height: 44.2%;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.7);
+}
+
+.backdrop {
+    object-fit: cover;
+}
+
+/*This part is for information about me*/
+
+.information {
+    height: 44%;
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.words {
+    height: 68%;
+    padding-top: 1rem;
+}
+
+p {
+    text-align: center;
+    margin: 0 20%;
+    font-size: 0.85rem;
+    font-family: 'Unna', serif;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Unna', serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.socmed {
+    padding: 0 39%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 1.8rem;
+    left: 0;
+    right: 0;
+    height: 2rem;
+}
+
+.socmed img {
+    object-fit: cover;
+    height: 2rem;
+    background-color: transparent;
+}
+
+.socmed img:hover {
+    height: 2.2rem;
+}
+
+.socmed img:active {
+    height: 2rem;
+}
+
+.border-div {
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0;
+    right: 0;
+}
+
+.border {
+    width: 50%;
+}
+
+/*empty part*/
+
+.footer {
+    height: 6%;
+    background-color: rgb(237, 237, 237);
+}
+
+
+
