@@ -6,13 +6,14 @@
 body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(
+    background-color: rgb(177, 194, 215);
+    /* background: linear-gradient(
       to top,
       rgb(237, 237, 237) 0%,
-      rgb(237, 237, 237) 50%,
-      rgb(177, 194, 215) 50%,
+      rgb(237, 237, 237) 45%,
+      rgb(177, 194, 215) 45%,
       rgb(177, 194, 215) 100%
-    );
+    ); */
 }
 
 a {
@@ -22,10 +23,9 @@ a {
 
 /*This is the div where everything in the homapage is inside*/
 .box {
-    background-color: wheat;
     height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     position: relative;
 }
 
@@ -35,7 +35,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 6%;
+    height: 10%;
     background-color: rgb(177, 194, 215);
     padding: 0 16%;
 }
@@ -62,13 +62,15 @@ a {
 /*This part is for homepage backdrop image*/
 
 .home-backdrop {
-    background-color: blue;
-    height: 44.2%;
+    background-color: rgb(23, 4, 4);
+    height: 45%;
+    align-items: center;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.7);
 }
 
 .backdrop {
-    object-fit: cover;
+    width: 100%;
+    object-fit: covers;
 }
 
 /*This part is for information about me*/
@@ -95,12 +97,12 @@ p {
 h1 {
     text-align: center;
     padding-bottom: 1rem;
-    font-family: 'Unna', serif;
+    font-family: 'Cinzel', serif;
     font-weight: 100;
-    font-style: italic;
     font-size: 3rem;
 }
 
+/*font-family: 'Cinzel', serif;*/
 .socmed {
     padding: 0 39%;
     display: flex;
@@ -145,7 +147,7 @@ h1 {
 
 .footer {
     height: 6%;
-    background-color: rgb(237, 237, 237);
+    background-color: B1C2D7;
 }
 
 
