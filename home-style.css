@@ -21,6 +21,11 @@ a {
     color: black;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+
 /*This is the div where everything in the homapage is inside*/
 .box {
     height: 100%;
