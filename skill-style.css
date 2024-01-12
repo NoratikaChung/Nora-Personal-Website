@@ -25,6 +25,7 @@ a {
     background-color: rgb(249, 249, 249);
     margin-left: 10%;
     margin-right: 10%;
+    padding-top: 1.5rem;
     padding-bottom: 3rem;
     position: relative;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.7);
@@ -98,11 +99,14 @@ h2 {
 .skill-images {
     display: flex;
     padding: 2rem 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-content: space-between;
 }
 
 .skill-images img {
     height: 4rem;
+    margin: 0 0.4rem;
 }
 
 ul {
@@ -116,15 +120,44 @@ ul li {
     padding-bottom: 0.2rem;
 }
 
-.tools ul {
-    margin-left: 42%;
-    margin-top: 2rem;
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .tools img {
     height: 4rem;
     margin-bottom: 1.2rem;
-    margin-left: 27%;
+}
+
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 3rem;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 1rem;
+    background-color: rgb(239, 233, 123);
+    border-radius: 0.4rem;
+}
+
+.tool:hover {
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.tool img {
+    object-fit: contain;
+}
+
+.tool p {
+    padding: 1rem 0.5rem;
 }
 
 
@@ -133,7 +166,7 @@ ul li {
 .home-button {
     position: absolute;
     bottom: 1rem;
-    left: 48%;
+    left: 46%;
     background-color: rgb(215, 177, 177);
     color: rgb(41, 41, 41);
     border-style: none;
